@@ -571,3 +571,349 @@ s.container {
   text-align: center;
   margin-top: 36px;
 }
+
+.vector__scientist {
+  width: 536px;
+  height: 1px;
+  background-color: #000;
+  margin: auto;
+  margin-bottom: 36px;
+}
+
+#info__section {
+  font-family: "Montserrat Alternates", solid;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.info__title {
+  font-weight: 400;
+  font-size: 16px;
+  color: #000;
+  text-align: center;
+  margin-top: 36px;
+  margin-bottom: 36px;
+}
+
+.info__scientists {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 577px;
+  gap: 36px 59px;
+  margin-top: 36px;
+  margin: auto;
+  margin-bottom: 36px;
+  padding: 0;
+  height: 372px;
+}
+
+.info__scientist {
+  width: 100px;
+  height: 100px;
+  border-radius: 20px;
+  background-color: #D9D9D9;
+  text-align: center;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  gap: 10px;
+  font-size: 12px;
+}
+
+.info__prompts {
+  margin-top: 36px;
+  gap: 20px 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+}
+
+.info__but {
+  font-family: "Montserrat Alternates", solid;
+  font-weight: 400;
+  font-size: 16px;
+  border-radius: 20px;
+  padding: 10px 20px;
+  height: 35px;
+  box-shadow: 3px 3px 0 0 rgba(0, 0, 0, 0.25);
+  background: #000;
+  padding: 10px 20px;
+  font-size: 12px;
+  color: #FFFFFF;
+  list-style: none;
+  border: none;
+}
+
+.container {
+  max-width: 1090px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer__logo {
+  width: 165px;
+  height: 70px;
+  margin-top: 14px;
+}
+
+.footer__box {
+  display: flex;
+  list-style: none;
+  padding-top: 61px;
+  padding-bottom: 59px;
+  margin-top: -14px;
+}
+
+.footer__box-item:first-child {
+  margin-right: 185px;
+}
+.footer__box-item:nth-child(2) {
+  margin-right: 187px;
+}
+
+.footer__contacts {
+  font-size: 12px;
+  width: 207px;
+  font-family: "Montserrat Alternates", sans-serif;
+}
+
+.footer__gmail-input {
+  width: 204px;
+  height: 35px;
+  border: none;
+  border-radius: 20px;
+  background-color: #d7d7d7;
+  color: #7e7e7e;
+  padding-left: 10px;
+  font-style: 12px;
+  font-family: "Montserrat Alternates", sans-serif;
+}
+
+.footer__subscribe {
+  color: #fff;
+  background: #000;
+  width: 107px;
+  height: 35px;
+  border: none;
+  font-size: 12px;
+  border-radius: 20px;
+  margin-left: 36px;
+  font-family: "Montserrat Alternates", sans-serif;
+}
+
+.footer__description {
+  color: #000;
+  font-size: 6px;
+  font-family: "Montserrat Alternates", sans-serif;
+}
+
+.footer__subscribe-box {
+  display: flex;
+  margin-top: 36px;
+}
+
+.footer-backdrop {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.2);
+  width: 100%;
+  height: 100%;
+  transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transition: 1000ms;
+  z-index: 1000;
+}
+
+.footer-backdrop__background-modal {
+  position: absolute;
+  width: 463px;
+  height: 245px;
+  background-color: #fff;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 20px;
+}
+
+.footer__is-hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.footer-backdrop__close {
+  width: 30px;
+  height: 30px;
+  border: none;
+  background-color: #fff;
+  border-radius: 50%;
+  margin-left: 400px;
+  margin-top: 30px;
+}
+
+.footer-backdrop__close-svg {
+  width: 15px;
+  height: 15px;
+  fill: #000;
+}
+
+.footer-backdrop__close .footer-backdrop__close-svg {
+  position: relative;
+  transition: transform 1s;
+}
+
+.footer-backdrop__title {
+  font-size: 20px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.footer-backdrop__background {
+  background-image: url(../images/footer/footer-backdrop.png);
+  width: 378px;
+  height: 106px;
+  margin-left: 43px;
+  margin-bottom: 20px;
+}
+
+.container {
+  max-width: 1090px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer__logo {
+  width: 165px;
+  height: 70px;
+  margin-top: 14px;
+}
+
+.footer__box {
+  display: flex;
+  list-style: none;
+  padding-top: 61px;
+  padding-bottom: 59px;
+  margin-top: -14px;
+}
+
+.footer__box-item:first-child {
+  margin-right: 185px;
+}
+.footer__box-item:nth-child(2) {
+  margin-right: 187px;
+}
+
+.footer__contacts {
+  font-size: 12px;
+  width: 207px;
+  font-family: "Montserrat Alternates", sans-serif;
+}
+
+.footer__gmail-input {
+  width: 204px;
+  height: 35px;
+  border: none;
+  border-radius: 20px;
+  background-color: #d7d7d7;
+  color: #7e7e7e;
+  padding-left: 10px;
+  font-style: 12px;
+  font-family: "Montserrat Alternates", sans-serif;
+}
+
+.footer__subscribe {
+  color: #fff;
+  background: #000;
+  width: 107px;
+  height: 35px;
+  border: none;
+  font-size: 12px;
+  border-radius: 20px;
+  margin-left: 36px;
+  font-family: "Montserrat Alternates", sans-serif;
+}
+
+.footer__description {
+  color: #000;
+  font-size: 6px;
+  font-family: "Montserrat Alternates", sans-serif;
+}
+
+.footer__subscribe-box {
+  display: flex;
+  margin-top: 36px;
+}
+
+.footer-backdrop {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.2);
+  width: 100%;
+  height: 100%;
+  transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transition: 1000ms;
+  z-index: 1000;
+}
+
+.footer-backdrop__background-modal {
+  position: absolute;
+  width: 463px;
+  height: 245px;
+  background-color: #fff;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 20px;
+}
+
+.footer__is-hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.footer-backdrop__close {
+  width: 30px;
+  height: 30px;
+  border: none;
+  background-color: #fff;
+  border-radius: 50%;
+  margin-left: 400px;
+  margin-top: 30px;
+}
+
+.footer-backdrop__close-svg {
+  width: 15px;
+  height: 15px;
+  fill: #000;
+}
+
+.footer-backdrop__close .footer-backdrop__close-svg {
+  position: relative;
+  transition: transform 1s;
+}
+
+.footer-backdrop__title {
+  font-size: 20px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.footer-backdrop__background {
+  background-image: url(../images/footer/footer-backdrop.png);
+  width: 378px;
+  height: 106px;
+  margin-left: 43px;
+  margin-bottom: 20px;
+}

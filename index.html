@@ -201,6 +201,61 @@
 </section>
 
     <!-- Three numbers - end -->
+    <!-- Pick the scientist - start -->
+    <section id="info__section">
+        <div class="container">
+            <div class="scientist-night">
+                <div class="vector__scientist"></div>
+            <h2 class="info__title">
+                Обери вченого/их
+            </h2>
+            <ul class="info__scientists"></ul>
+            <ul class="info__prompts"></ul>
+        </div>
+            </div>
+    </section>
+    <script type="module" src="./index.js"></script>
+    
+    <!-- Pick the scientist - end -->
+    <!-- Footer - start -->
+    <section class="footer">
+        <div class="container">
+            <ul class="footer__box">
+                <li class="footer__box-item">
+                    <svg class="footer__logo">
+                        <use href="./images/footer/footer-symbol-defs.svg#logo"></use>
+                    </svg>
+                </li>
+                <li class="footer__box-item">
+                    <p class="footer__contacts">Тел: +380 (12) 345 67 89<br>
+                        E-Mail:mark.kapkan@gmail.com<br>
+                    </p>
+                </li>
+                <li class="footer__box-item">
+                    <div class="footer__subscribe-box">
+                        <input type="email" placeholder="Ваша ел. адреса" class="footer__gmail-input">
+                    <button class="footer__subscribe" type="button" data-open-modal>Підписатись</button>
+                    </div>
+                    <p class="footer__description">*Підписавшись, Ви зможете ортимувати інформаццію про новинки на сайті</p>
+                </li>
+            </ul>
+        </div>
+    </section>
+    
+    <div class="footer-backdrop footer__is-hidden" data-backdrop>
+        <form class="footer-backdrop__background-modal">
+            <button class="footer-backdrop__close" type="button" data-close-modal>
+                <svg class="footer-backdrop__close-svg">
+                    <use href="./images/footer/footer-symbol-defs.svg#icon-close"></use>
+                </svg>
+            </button>
+            <div class="footer-backdrop__background">
+                <h4 class="footer-backdrop__title">Дякую за підписку!</h4>
+            </div>
+        </form>
+    </div>
+    
+    <!-- Footer - end -->
     <script src="/js/header.js"></script>
     <script src="/js/script.js"></script>
     <script src="/js/check-the-born-year.js"></script>
@@ -208,5 +263,7 @@
     <script src="/js/rock-scissors-paper.js"></script>
     <script src="/js/calculator.js"></script>
     <script src="/js/three-numbers.js"></script>
+    <script src="/js/pick-the-scientist.js"></script>
+    <script src="/js/footer.js"></script>
 </body>
 </html>
