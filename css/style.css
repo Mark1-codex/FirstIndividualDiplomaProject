@@ -320,7 +320,7 @@ s.container {
 
 .prs__title {
   font-family: "Montserrat Alternates", solid;
-  font-weight: 400;
+  font-weight: 800;
   font-size: 16px;
   text-align: center;
   margin-top: 36px;
@@ -418,7 +418,35 @@ s.container {
   border-radius: 20px;
   width: 182px;
   height: 35px;
-  margin-left: 270px;
+  margin-left: 700px;
+}
+
+.player-select {
+  display: block;
+  padding-left: 300px;
+}
+
+.cpu-select {
+  display: block;
+  padding-left: 300px;
+}
+
+.player-select__text {
+  font-family: "Montserrat Alternates", sans-serif, serif;
+}
+
+.cpu-select__text {
+  font-family: "Montserrat Alternates", sans-serif, serif;
+}
+
+.player-image {
+  width: 65px;
+  height: 65px;
+}
+
+.cpu-image {
+  width: 65px;
+  height: 65px;
 }
 
 .vector__calculator {
@@ -605,7 +633,6 @@ s.container {
   margin: auto;
   margin-bottom: 36px;
   padding: 0;
-  height: 372px;
 }
 
 .info__scientist {

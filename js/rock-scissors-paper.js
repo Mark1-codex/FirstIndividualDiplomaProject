@@ -8,6 +8,10 @@ let winLoseText = document.getElementById('winOrLose')
 let cpu = document.getElementById('computer-variant')
 let cpuScoreLabel = document.getElementById('comp-score-text')
 let playerScoreLabel = document.getElementById('user-score-text')
+let playerVariantImage = document.getElementById('image-player')
+let cpuVariantImage = document.getElementById('image-cpu')
+playerVariantImage.style.opacity = '0'
+cpuVariantImage.style.opacity = '0'
 let playGame = function(player, cpu){
     winLoseText.style.opacity = '1'
     if(player == cpu){
@@ -38,14 +42,26 @@ let playGame = function(player, cpu){
 let playerVariant = ''
 Rock.addEventListener('click', function(){
     playerVariant = 'rock'
+    playerVariantImage.style.opacity = '1'
+    cpuVariantImage.style.opacity = '0'
+    playerVariantImage.src = `/images/${playerVariant}.png`
 })
 Scissors.addEventListener('click', function(){
     playerVariant = 'scissors'
+    playerVariantImage.style.opacity = '1'
+    cpuVariantImage.style.opacity = '0'
+    playerVariantImage.src = `/images/${playerVariant}.png`
 })
 Paper.addEventListener('click', function(){
     playerVariant = 'paper'
+    playerVariantImage.style.opacity = '1'
+    cpuVariantImage.style.opacity = '0'
+    playerVariantImage.src = `/images/${playerVariant}.png`
 })
 cpu.addEventListener('click', function(){
-    playGame(playerVariant, `${Varriants[Math.floor(Math.random()*3+1)]}`)
+    let cpuVariant = Varriants[Math.floor(Math.random(+1)*3)]
+    playGame(playerVariant, cpuVariant)
     console.log(playerVariant)
+    cpuVariantImage.style.opacity = '1'
+    cpuVariantImage.src = `/images/${cpuVariant}.png`
 })
